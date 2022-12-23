@@ -5,7 +5,7 @@ import { schemaTypes } from "./schemas";
 
 export default defineConfig({
   name: "default",
-  title: "Template Next Sanity",
+  title: "Real Spiffy Template",
   projectId: import.meta.env.SANITY_STUDIO_API_PROJECT_ID,
   dataset: import.meta.env.SANITY_STUDIO_API_DATASET,
   plugins: [deskTool(), visionTool()],
