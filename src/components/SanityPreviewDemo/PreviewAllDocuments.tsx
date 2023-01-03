@@ -6,6 +6,5 @@ import { AllDocuments } from "./AllDocuments";
 
 export const PreviewAllDocuments = () => {
   const data = usePreview(null, query);
-  // const data = [];
   return <AllDocuments data={data} />;
 };
